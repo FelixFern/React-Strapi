@@ -1,0 +1,22 @@
+.review-box {
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+    padding: 2.5% 5%;
+    margin-top: 20px;
+}
+.review-box h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.review-box h3 {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--purple);
+}
+.review-box p {
+    font-size: 12px;
+}
+.review-title { 
+    border-bottom: 2px solid var(--purple);
+}
