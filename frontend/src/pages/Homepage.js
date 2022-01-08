@@ -21,7 +21,7 @@ function Homepage() {
                             <h3>Rating : {review.attributes.rating}</h3>
                         </div>
                         <p>{review.attributes.body}</p>
-                        <Link to = {`details/${review.id}`}>Read More</Link>
+                        <Link to = {`review/${review.id}`}>Read More</Link>
                     </div>
                 )
             })}
