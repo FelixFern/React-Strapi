@@ -8,8 +8,8 @@ import Header from './components/Header'
 
 // Apollo Client 
 const client = new ApolloClient({
-	uri : "https://localhost:1337/graphql", 
-	cache: InMemoryCache()
+	uri : "http://localhost:1337/graphql", 
+	cache: new InMemoryCache()
 })
 
 function App() {
